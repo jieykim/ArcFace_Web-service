@@ -1,0 +1,114 @@
+.container{
+  text-align: center;
+  font-family: font2;
+  background-color: rgb(254, 254, 254);
+}
+
+.content{
+  margin: 50px;
+}
+
+.explain{
+  font-size: 20px;
+  margin : 50px;
+}
+
+summary{
+  font-size: 25px;
+ }
+
+summary::marker{
+  display: none;
+  content: "";
+}
+
+@font-face{
+  font-family: "font1";
+  src: url(.././font1.ttf) format("opentype");
+  
+  font-family: "font2";
+  src: url(.././font2.ttf) format("opentype");
+}
+
+.head{
+  padding-top: 1px;
+  font-size: 50px;
+  background-color: #fbfbfb;
+}
+
+.jb-division-line{
+  border-top: 3px solid #a19f9f;
+  margin: 2px auto;
+  width: 650px;
+}
+
+.white{
+  color:black;
+  font-weight:bold;
+}
+
+.middle{
+  margin-top:50px;
+  font-weight:bold;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.box{
+  margin:5px;
+  border: 2px solid #605f5f;
+  border-radius: 20px;
+}
+
+.filebox .upload-name {
+  display: inline-block;
+  height: 40px;
+  padding: 0 10px;
+  vertical-align: middle;
+  border: 1px solid #dddddd;
+  width: 60%;
+  color: #999999;
+}
+
+.filebox label {
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #999999;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 10px;
+  font-size:16.5px;
+}
+
+.filebox button {
+  font-size:16.5px;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #999999;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 10px;
+  border: 0px #999999;
+  font-family: font2;
+  width: 100px;
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.copyright{
+  margin-top: 200px;
+}
